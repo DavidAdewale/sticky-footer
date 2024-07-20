@@ -1,0 +1,9 @@
+.contentContainer {
+  background-color: #4e4e5a;
+  padding: 4rem 8rem;
+  height: 80vh;
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}

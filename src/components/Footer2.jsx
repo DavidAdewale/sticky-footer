@@ -1,15 +1,16 @@
-import React from 'react'
+import React from 'react';
 import Content from './Content';
+
+import styles from './styles/footer2.module.css';
 
 export default function Footer() {
   return (
-    <div 
-      className='relative h-[800px]'
-      style={{clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)"}}
-    >
-      <div className='fixed bottom-0 h-[800px] w-full'>
-        <Content />
+    <div className={styles.footerContainer}>
+      <div className={styles.innerContainer}>
+        <div className={styles.deepContainer}>
+          <Content />
+        </div>
       </div>
     </div>
-  )
+  );
 }

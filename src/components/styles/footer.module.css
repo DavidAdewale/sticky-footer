@@ -1,0 +1,12 @@
+.footerContainer {
+  position: relative;
+  height: 80vh;
+  clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 100%);
+}
+
+.innerContainer {
+  position: fixed;
+  bottom: 0;
+  height: 80vh;
+  width: 100%;
+}
